@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/courtside-coach-ai/static/css/main.e6c13ad2.css",
-    "main.js": "/courtside-coach-ai/static/js/main.0f7eacb8.js",
+    "main.css": "/courtside-coach-ai/static/css/main.cf890fdb.css",
+    "main.js": "/courtside-coach-ai/static/js/main.7cdd0cc7.js",
     "static/js/453.8ab44547.chunk.js": "/courtside-coach-ai/static/js/453.8ab44547.chunk.js",
+    "static/media/default_court.png": "/courtside-coach-ai/static/media/default_court.79865531636c0993c62b.png",
     "index.html": "/courtside-coach-ai/index.html",
-    "main.e6c13ad2.css.map": "/courtside-coach-ai/static/css/main.e6c13ad2.css.map",
-    "main.0f7eacb8.js.map": "/courtside-coach-ai/static/js/main.0f7eacb8.js.map",
+    "main.cf890fdb.css.map": "/courtside-coach-ai/static/css/main.cf890fdb.css.map",
+    "main.7cdd0cc7.js.map": "/courtside-coach-ai/static/js/main.7cdd0cc7.js.map",
     "453.8ab44547.chunk.js.map": "/courtside-coach-ai/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.0f7eacb8.js"
+    "static/css/main.cf890fdb.css",
+    "static/js/main.7cdd0cc7.js"
   ]
 }
