@@ -12,6 +12,7 @@ function App() {
   const [result, setResult]           = useState("");
   const [loading, setLoading]         = useState(false);
 
+  // Convert uploaded file (image or video) to Base64
   const fileToBase64 = (file, setter) => {
     const reader = new FileReader();
     reader.onloadend = () => setter(reader.result);
@@ -60,13 +61,13 @@ function App() {
 
         {/* Form Container */}
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden divide-y divide-gray-200">
-          {/* Section: Court Details */}
+          {/* 1. Court Details */}
           <section className="p-6">
             <h2 className="text-2xl font-semibold text-gray-700 mb-4">
               1. Court Details
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Category */}
+              {/* Court Type */}
               <div>
                 <label className="block mb-1 text-gray-600 font-medium">
                   Court Type
@@ -76,12 +77,11 @@ function App() {
                   value={category}
                   onChange={(e) => setCategory(e.target.value)}
                 >
-                  <option>High School Court</option>
-                  <option>Scout Court</option>
-                  <option>Professional Court</option>
+                  <option>High School</option>
+                  <option>College</option>
+                  <option>Professional</option>
                 </select>
               </div>
-
               {/* Quarter */}
               <div>
                 <label className="block mb-1 text-gray-600 font-medium">
@@ -102,7 +102,7 @@ function App() {
             </div>
           </section>
 
-          {/* Section: Uploads */}
+          {/* 2. Upload Image or Video */}
           <section className="p-6 bg-gray-50">
             <h2 className="text-2xl font-semibold text-gray-700 mb-4">
               2. Upload Image or Video
@@ -134,7 +134,6 @@ function App() {
                   </div>
                 )}
               </div>
-
               {/* Video Uploader */}
               <div className="flex flex-col">
                 <label className="block mb-1 text-gray-600 font-medium">
@@ -164,7 +163,7 @@ function App() {
             </div>
           </section>
 
-          {/* Section: Transcript */}
+          {/* 3. Transcript */}
           <section className="p-6">
             <h2 className="text-2xl font-semibold text-gray-700 mb-4">
               3. Play-by-Play Transcript
@@ -177,7 +176,7 @@ function App() {
             ></textarea>
           </section>
 
-          {/* Section: Action */}
+          {/* 4. Analyze Button */}
           <section className="p-6 bg-gray-50 flex justify-center">
             <button
               onClick={handleAnalyze}
@@ -218,7 +217,7 @@ function App() {
             </button>
           </section>
 
-          {/* Section: Result */}
+          {/* 5. Coach’s Insight */}
           {result && (
             <section className="p-6">
               <h2 className="text-2xl font-semibold text-gray-700 mb-4">
