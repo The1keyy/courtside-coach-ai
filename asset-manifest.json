@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/courtside-coach-ai/static/css/main.e6c13ad2.css",
+    "main.js": "/courtside-coach-ai/static/js/main.455e55a3.js",
+    "static/js/453.8ab44547.chunk.js": "/courtside-coach-ai/static/js/453.8ab44547.chunk.js",
+    "index.html": "/courtside-coach-ai/index.html",
+    "main.e6c13ad2.css.map": "/courtside-coach-ai/static/css/main.e6c13ad2.css.map",
+    "main.455e55a3.js.map": "/courtside-coach-ai/static/js/main.455e55a3.js.map",
+    "453.8ab44547.chunk.js.map": "/courtside-coach-ai/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.455e55a3.js"
+  ]
+}
